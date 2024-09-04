@@ -1,0 +1,24 @@
+public class Books {
+private String title;
+private String ISBN;
+private String author;
+private String genre;
+public Books(String title, String ISBN, String author, String genre) {
+this.title = title;
+this.ISBN = ISBN;
+this.author = author;
+this.genre = genre;
+}
+public String getTitle() {
+return title;
+}
+public String getISBN() {
+return ISBN;
+}
+public String getAuthor() {
+return author;
+}
+public String getGenre() {
+return genre;
+}
+}
